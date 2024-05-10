@@ -14,8 +14,8 @@
     body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(135deg, #fff, #d8d8d8);
-    color: #333;
+    background: linear-gradient(135deg, #, #d8d8d8);
+    color: #000;
     font-family: "Noto Serif", serif;
     font-style: normal;
     line-height: 1.4;
@@ -39,6 +39,10 @@
         margin-bottom: 0px;
     }
 
+    p {
+       color: #333;
+    }
+
     .navbar {
             background-color: #d8d8d8;
             overflow: hidden;
@@ -59,18 +63,23 @@
 <body>
     <div class="sm:min-h-screen">
         <div class="max-w-xl px-4 mx-auto pt-4 text-sm">
-            <div class="flex items-center justify-between text-gray-500">
+            <div class="flex items-center justify-between text-gray-600">
             <div class="grayscale opacity-60">
-            <img alt="logo" loading="lazy" width="21" height="21"
-            decoding="async" data-nimg="1" style="color:transparent" src="/">
+            <!-- <img alt="logo" loading="lazy" width="21" height="21"
+            decoding="async" data-nimg="1" style="color:transparent" src="/"> -->
             </div>
-        <div class="items-center gap-2 flex">
-            <a class="underline" href=""> Home </a>
-            <a class="underline" href=""> About</a>
-            <a class="underline" href=""> Docs</a>
-            <a class="underline" href=""> Demo</a>
-            <a class="btn-sm text-sm" href="/login">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            <div class="items-center gap-2 flex">
+                <a class="no-underline underline hover:text-blue-500" href="#">Home</a>
+                <!-- <a class="no-underline underline hover:text-blue-500" href="#">About</a>
+                <a class="no-underline underline hover:text-blue-500" href="#">Docs</a> -->
+                <a class="no-underline underline hover:text-blue-500" href="https://gotchat.verifyhumans.com">Demo</a>
+                <!-- <a class="btn-sm text-sm no-underline underline hover:text-blue-500" href="/login">Login</a> -->
+            </div>
+            
+                <div class="blank100">
+
+                </div>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                 stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-4 h-4">
                 </svg>
                 <path stroke-linecap="round"
@@ -78,31 +87,35 @@
             </path>
         </svg>
             login
-            </a>
+            </a> -->
         </div>
 
     <div id="maincontent">
-        <h1 class="text-2xl font-serif pb-4"> Verify Humans <br> Detecting AI's browsing the web</br></h2>
+        <h2 class="text-2xl font-serif pb-4 "> Verify Humans </h2>
+        <h class="text-xl font-serif pb-4">Detecting AI browsing the web</h3>
+        <div class="blank100">
+
+        </div>
+        <div class="blank100">
+
+        </div>
+        <br/>
         <div class="text-sm">
-            <p class="pb-2">
+            <p class="text-base pb-2 text-gray-950 inline-block">
                 We exist to create a new identity layer for humans in the age of AI
             </p>
-            <p class="pb-2"> 
+            <p class="text-base pb-2"> 
                 Our first product is a new identifcation layer that replaces CAPTCHA called GOTCHA
             </p>
-            <p class="pb-2"> 
+            <p class="text-base pb-2"> 
                 Move from AI point and click detection using GOTCHA to real-time video dectection when accessing a website 
             </p>
         </div>
     </div>
         </div>
     </div>
+    </div>
 </div>
-    <p style="text-align: center; font-style: italic;">
-        email us at founders@verifyhumans.com for more info </a> 
-    </p>
-    <footer>
-        <p style="text-align: center;">&copy; 2024 Human Verification</p>
-    </footer>
+            
 </body>
 </html>

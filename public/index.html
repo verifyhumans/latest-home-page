@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <style>
@@ -56,20 +57,30 @@
         }
 </style>
 <body>
-    <!-- <div class="navbar">
-         <a href="/">Home</a>
-        <a href="https://gotcha.verifyhumans.com">Demo</a>
-    </div> -->
     <div class="sm:min-h-screen">
         <div class="max-w-xl px-4 mx-auto pt-4 text-sm">
             <div class="flex items-center justify-between text-gray-500">
             <div class="grayscale opacity-60">
+            <img alt="logo" loading="lazy" width="21" height="21"
+            decoding="async" data-nimg="1" style="color:transparent" src="/">
+            </div>
         <div class="items-center gap-2 flex">
             <a class="underline" href=""> Home </a>
             <a class="underline" href=""> About</a>
             <a class="underline" href=""> Docs</a>
             <a class="underline" href=""> Demo</a>
+            <a class="btn-sm text-sm" href="/login">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-4 h-4">
+                </svg>
+                <path stroke-linecap="round"
+                stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+            </path>
+        </svg>
+            login
+            </a>
         </div>
+
     <div id="maincontent">
         <h1 class="text-2xl font-serif pb-4"> Verify Humans <br> Detecting AI's browsing the web</br></h2>
         <div class="text-sm">

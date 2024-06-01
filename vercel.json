@@ -1,7 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/:path*", "destination": "/:path*" },
-    { "source": "/verified", "destination": "/public/verified.html" },
-    { "source": "/api/:path*", "destination": "/api/:path*" }
-  ]
-}
